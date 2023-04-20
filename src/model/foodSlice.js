@@ -34,7 +34,12 @@ export const foodSlice = createSlice({
     },
     placeOrder: (state) => {
       if(state.currentOrders.length > 0){
-        state.previousOrders = [...state.previousOrders, ...state.currentOrders];
+        state.currentOrders.forEach((id)=>{
+          if(!state.previousOrders.includes(id)){
+            state.previousOrders.push(id);
+          }
+        })
+        
         state.currentOrders = [];
         
         for(var key of Object.keys(state.itemVsCount)){
