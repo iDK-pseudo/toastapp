@@ -8,8 +8,6 @@ const TabPanel = ({index}) => {
         return <Special/>
     }else if(index == 1){
         return <Main/>
-    }else{
-        return <h1> 3 </h1>
     }
 }
 
@@ -26,7 +24,6 @@ export function NavBar () {
             <Tabs value={value} onChange={handleChange}>
             <Tab label="Special" />
             <Tab label="Main" />
-            <Tab label="Beverages" />
             </Tabs>
             <TabPanel index={value}/>
        </Box>

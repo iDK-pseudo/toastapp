@@ -38,7 +38,11 @@ export const foodSlice = createSlice({
         state.currentOrders = [];
         
         for(var key of Object.keys(state.itemVsCount)){
-          state.prevItemVsCount[key] = state.itemVsCount[key];
+          if(key in state.prevItemVsCount){
+            state.prevItemVsCount[key] = state.prevItemVsCount[key] + state.itemVsCount[key];  
+          }else{
+            state.prevItemVsCount[key] = state.itemVsCount[key];
+          }
           state.itemVsCount[key] = 0;
         }
       }
