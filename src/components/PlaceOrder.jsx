@@ -3,12 +3,13 @@ import "../styles/PlaceOrder.css"
 import { useSelector, useDispatch } from 'react-redux'
 import {placeOrder} from "../model/foodSlice.js"
 
-export default function PlaceOrder() {
+export default function PlaceOrder({handleBack}) {
     const currentOrders = useSelector(state=>state.foodRed.currentOrders);
     const dispatch = useDispatch();
 
     const handlePlaceOrder = () => {
         dispatch(placeOrder());
+        handleBack();
     }
 
     return (

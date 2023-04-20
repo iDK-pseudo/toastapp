@@ -23,7 +23,7 @@ function App() {
       {!showOrders && <NavBar/>}
       {showOrders && <Orders handleBack={handleBack}/>}
       {!showOrders && <BottomNavBar handleOrdersClick={handleOrdersClick}/>}
-      {showOrders && <PlaceOrder/>}
+      {showOrders && <PlaceOrder handleBack={handleBack}/>}
     </div>
   );
 }
