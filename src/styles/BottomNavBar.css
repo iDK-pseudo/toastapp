@@ -22,3 +22,18 @@
     padding: 5px 8px;
     border-radius: 50%;
 }
+
+@media only screen and (min-width: 600px) {
+    .bottom-nav-container{
+        width: 50%;   
+    }
+
+    .bottom-nav-bag {
+        width: 3vw
+    }
+
+    .bottom-nav-count{
+        bottom: 30px;
+        right: 90px;
+    }
+}
