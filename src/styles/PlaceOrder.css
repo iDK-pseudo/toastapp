@@ -1,0 +1,13 @@
+.place-order-container {
+    display: flex;
+    height: 8vh;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: linear-gradient(135deg, #459EAF 0%, #007991 100%);
+    font-size: 18px;
+}

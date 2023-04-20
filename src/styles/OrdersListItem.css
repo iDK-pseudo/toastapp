@@ -1,0 +1,16 @@
+.orders-li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    margin-bottom: 30px;
+}
+
+.orders-li-section {
+    flex: 2;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: stretch;
+}

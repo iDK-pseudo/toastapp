@@ -1,0 +1,24 @@
+.bottom-nav-container {
+    position: fixed;
+    bottom: 0;
+    height: 8vh;
+    background-color: azure;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.bottom-nav-bag {
+    width: 10vw
+}
+
+.bottom-nav-count{
+    position: absolute;
+    bottom: 35px;
+    right: 40px;
+    color: white;
+    background-color: red;
+    padding: 5px 8px;
+    border-radius: 50%;
+}

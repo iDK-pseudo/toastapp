@@ -1,0 +1,26 @@
+.food-label-container {
+    margin: 0 10px;
+    padding: 2px;
+}
+
+.food-label-content {
+    height: 11px;
+    width: 12px;
+    border-radius: 100%;
+}
+
+.food-label-veg-border {
+    border: 2px solid green;
+}
+
+.food-label-veg-bg {
+    background: green;
+}
+
+.food-label-nonveg-border {
+    border: 2px solid red;
+}
+
+.food-label-nonveg-bg {
+    background: red;
+}

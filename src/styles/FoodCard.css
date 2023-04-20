@@ -1,0 +1,30 @@
+.food-card-container {
+    margin-top: 15px;
+    margin-left: 14px;
+    width: 44%;
+    height: 190px;
+    padding-bottom: 35px;
+    border-radius: 20px;
+    box-shadow: 2px 10px 10px rgb(0,0,0,0.2);
+    font-size: 14px;
+}
+
+.food-card-img {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.food-card-section-one {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.food-card-section-two {
+    margin: 20px 0 0 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
