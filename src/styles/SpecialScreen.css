@@ -1,0 +1,15 @@
+.special-container {
+    height: 120vh
+}
+
+.special-food-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .special-container {
+        height: 150vh
+    }    
+}
